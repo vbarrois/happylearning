@@ -3,6 +3,8 @@
 const { app } = require("electron");
 const server = require("./server");
 
+1
+
 let mainWindow;
 
 async function onServerReady() {
