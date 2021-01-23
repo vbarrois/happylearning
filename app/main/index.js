@@ -3,7 +3,7 @@
 const { app } = require("electron");
 const server = require("./server");
 
-1
+3
 
 let mainWindow;
 
