@@ -1,0 +1,34 @@
+{
+  "name": "happylearning",
+  "version": "1.0.0",
+  "description": "Happy Learning",
+  "repository": "https://github.com/vbarrois/happylearning.git",
+  "author": "vbarrois <vbarrois@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "app:build": "electron-builder build",
+    "client:build": "rollup -c"
+  },
+  "build": {
+    "productName": "HappyLearning",
+    "icon": "app/static/icon.png"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.1",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "body-parser": "^1.19.0",
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1",
+    "polka": "^0.5.2",
+    "rollup": "^2.38.0",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-svelte-svg": "^0.2.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "svelte": "^3.31.2"
+  }
+}

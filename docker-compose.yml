@@ -1,0 +1,15 @@
+version: '2.0'
+services:
+  happylearning:
+    build:
+      context: .
+      args:
+        - NODE_ENV=development
+        - SERVER_PORT=100
+    image: vbarrois/happylearning
+    container_name: happylearning
+    volumes:
+      - .:/usr/src/happylearning
+    restart: always
+    ports:
+      - 100:100
